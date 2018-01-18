@@ -90,7 +90,7 @@ header .one-half{
  header nav ul > li {
    list-style-type: none;
    display: inline-block;
-   margin:0 15px;
+   margin:0 15px 10px;
  }
  header nav ul > li.btn-outline {
    padding:10px 15px;
@@ -107,6 +107,12 @@ header .one-half{
  header nav ul > li.btn-outline:hover > a {
    color:#34495E;
  }
+header .logo-wrapper{
+  width: 21%
+}
+header .menu-wrapper{
+width: 71%
+}
  header .hero {
   text-align: center;
   display:block;
@@ -302,7 +308,7 @@ footer {
   background-image: linear-gradient(to top,
      #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
   color: #FFFFFF;
-  height: 150px;
+  height: auto;
   position: relative;
   overflow: hidden;
   z-index: 0;
@@ -328,6 +334,7 @@ footer .logo{
   padding: 2.35em 0;
   margin: 0 auto;
   display: block;
+  text-align:center;
 }
 @media (min-width: 992px){
   footer{
@@ -346,4 +353,11 @@ footer .logo{
   footer .logo{
     padding: 2em 0 2em 1.5em;
   }
+}
+.footer-logo {
+  float: right;
+  padding: 10px
+}
+footer .container{
+  padding-right: 0px
 }
